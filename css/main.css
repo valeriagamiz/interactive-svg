@@ -17,7 +17,7 @@ html {
 }
 
 .st0 {
-  fill:#673200;
+  fill: #673200;
 }
 
 .st1 {
@@ -41,19 +41,19 @@ html {
   animation: sliding-eyes 3s linear infinite alternate;
 }
 
-#right-eye { 
+#right-eye {
   animation: sliding-eyes 3s linear infinite  alternate;
 }
 
 @keyframes sliding-eyes {
-  
-  from { transform: translate(0,0); }
-  
-  to { transform: translate(8px, 0px); }
-  
+
+  from { transform: translate(0, 0); }
+
+  to { transform: translate(8px, 0); }
+
 }
 
-#left-ear { 
+#left-ear {
   transition: all .5s linear;
 }
 
@@ -61,7 +61,7 @@ html {
   transition: all .5s linear;
 }
 
-#bear:hover #left-ear, 
+#bear:hover #left-ear,
 #bear:hover #right-ear {
-  transform: translate(0,-8px);
+  transform: translate(0, -8px);
 }
